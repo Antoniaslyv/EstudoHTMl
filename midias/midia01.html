@@ -8,7 +8,21 @@
 </head>
 <body>
     <!-- add imagem -->
-    <img src="img/flor.jpg" alt="paisagem amazonas">
+    <!-- <img src="img/flor.jpg" alt="paisagem amazonas"> -->
+
+    <!--add imagem flexiveis-->
+    <picture>
+        <source media="(max-whidt: 500px)" 
+        srcset="img/flor-300x200.jpg" type="image/jpg">
+        <source media="(max-whidt: 800px)" 
+        srcset="img/flor-700x467.jpg" type="image/jpg">
+        <source media="(max-whidt: 1050px)"
+         srcset="img/flor-1000x667.jpg" type="imagejpg">
+
+        srcset="flor-1000x667. jpg" type="image/jpg">
+
+        <img src="img/flor.jpg" alt="paisagem amazonas">
+    </picture>
 
 </body>
 </html>
